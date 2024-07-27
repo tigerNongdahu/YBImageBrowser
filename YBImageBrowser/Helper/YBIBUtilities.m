@@ -91,6 +91,7 @@ CGFloat YBIBSafeAreaBottomHeight(void) {
 }
 
 UIImage *YBIBSnapshotView(UIView *view) {
+    //2024-07-27
     if (@available(iOS 10.0, *)) {
         CGSize size = view.bounds.size;
         UIGraphicsImageRendererFormat *format = [[UIGraphicsImageRendererFormat alloc] init];
